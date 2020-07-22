@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "frima"
-set :repo_url, "git@github.com:s551031/frima.git"
+set :repo_url, "git@github.com:s51031/frima.git"
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 
